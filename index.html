@@ -8,6 +8,19 @@
 </head>
 <body>
     
+    <label for="btc-ingresado">Ingrese bitcoins a convertir:</label>
+    <input id="btc-ingresado" type="number" min="0">
+    
+    <label for="eth-verificacion">Ingrese true si desea convertir a eth</label>
+    <input id="eth-verificacion" type="text">
+
+    <label for="usd-verificacion">Ingrese true si desea convertir a usd</label>
+    <input id="usd-verificacion" type="text">
+
+    <button onclick="convertir()">Convertir</button>
+
+    <p id="resultado-conversion"></p>
+
     <script src="script.js"></script>
 </body>
 </html>
